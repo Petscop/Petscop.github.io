@@ -1,9 +1,21 @@
 body {
   background-color: #777;
-  margin: 0px;
+
+  font-family: Sans-Serif, Arial;
+  
+  margin: 0;
 }
 
-.nowebgl {
+.no {
   background-color: #888;
   border: 2px solid #999;
+  border-radius: 8px;
+
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+  margin: 50%;
+  padding: 4px;
+  width: 500px;
+  height: 50px;
 }
