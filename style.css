@@ -1,0 +1,8 @@
+body {
+  background-color: #777;
+}
+
+.nowebgl {
+  background-color: #888;
+  border: 2px solid #999;
+}
