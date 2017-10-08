@@ -7,15 +7,12 @@
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-    <canvas class="center" width="360px" height="240px" id="canvas">
-      <noscript class="no">
-        There's a problem! We have detected that you dont have <bJavascript</b>,<br/>
-        if you do support <b>Javascript</b> but this message still appears, please<br/>
-        try going to <a href="https://www.enable-javascript.com/" target="_blank">www.enable-javascript.com</a> to fix the problem.
-      </noscript>
-      <div id="error" class="center box hidden">
-        Unknown error has occured!
-      </div>
-    </canvas>
+    <canvas id="canvas" width="360px" height="240px"/>
+    <noscript class="box">
+There's a problem! We have detected that you dont have <bJavascript</b>,<br/>
+if you do support <b>Javascript</b> but this message still appears, please<br/>
+try going to <a href="https://www.enable-javascript.com/" target="_blank">www.enable-javascript.com</a> to fix the problem.
+    </noscript>
+    <div id="error" style="display: none;">Unknown error has occured!</div>
   </body>
 </html>
