@@ -2,14 +2,14 @@ document.addEventListener("load",()=>{
   var noscript = document.getElementById("noscript");
   noscript.style.display = "none";
   
-  local canvas = document.getElementById("canvas");
+  var canvas = document.getElementById("canvas");
   
   if (!canvas) {
     alert("Canvas element not supported, Cannot proceed.");
     return;
   }
   
-  local gl = canvas.getContext("webgl");
+  var gl = canvas.getContext("webgl");
   if (!gl) {
     alert("WebGL not supported, Cannot proceed.");
     return;
