@@ -1,9 +1,8 @@
-document.addEventListener("load",()=>{
+window.addEventListener("load",()=>{
   var noscript = document.getElementById("noscript");
   noscript.style.display = "none";
   
   var canvas = document.getElementById("canvas");
-  
   if (!canvas) {
     alert("Canvas element not supported, Cannot proceed.");
     return;
@@ -23,4 +22,4 @@ document.addEventListener("load",()=>{
   }
   
   if (canSave) alert("congratz! canvas, webgl and local storage supported.");
-});
+},false);
