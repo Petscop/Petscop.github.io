@@ -26,3 +26,7 @@ body {
     text-align: center;
     padding: 4px;
 }
+
+a {
+    text-decoration: none;
+}
