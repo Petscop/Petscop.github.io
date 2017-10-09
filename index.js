@@ -1,4 +1,4 @@
-(()=>{
+document.addEventListener("load",()=>{
   var noscript = document.getElementById("noscript");
   noscript.style.display = "none";
   
@@ -23,4 +23,4 @@
   }
   
   if (canSave) alert("congratz! canvas, webgl and local storage supported.");
-})();
+});
